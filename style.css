@@ -1,10 +1,10 @@
-
-*{
+* {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
 /* Header start */
-.content{
+.content {
     background-image: url(images/banner/header.png);
     height: 100vh;
     background-repeat: no-repeat;
@@ -13,26 +13,29 @@
     align-items: center;
     flex-direction: column;
 }
-.content .belief{
+
+.content .belief {
     text-align: right;
-    margin-left:70% ;
+    margin-left: 70%;
     margin-right: 100px;
-    font-size: 50px;  
-    font-weight: 700;  
+    font-size: 50px;
+    font-weight: 700;
     line-height: 70px;
 }
-.content .paragraph{
+
+.content .paragraph {
     text-align: right;
-    margin-left:50% ;
+    margin-left: 50%;
     font-weight: 400;
-    font-size: 20px; 
+    font-size: 20px;
     margin-right: 100px;
     margin-top: 20px;
     line-height: 26px;
 }
-.btn{
+
+.btn {
     align-items: right;
-    margin-left:75% ;
+    margin-left: 75%;
     margin-top: 25px;
     width: 160px;
     height: 64px;
@@ -43,90 +46,176 @@
     color: white;
     font-weight: bold;
 }
+
 /* header end */
 
 /* Failure content start */
 
-.second{
+.second {
     height: 550px;
     width: 1072px;
     margin: 166px 220px 0px 308px;
 }
-.second .second-content{
+
+.second .second-content {
     display: flex;
     justify-content: space-between;
 
 }
-.fail-experience{
-    width: 50%; 
+
+.fail-experience {
+    width: 50%;
     margin-top: 160px;
-    margin-right: 90px;    
+    margin-right: 90px;
 }
-.fail-experience .failures{
+
+.fail-experience .failures {
     font-size: 42px;
     font-weight: 700;
     line-height: 42px;
 }
-.fail-experience .description{
-    font-weight:400;
-    font-size:15px;
-    Line-height:26px;
+
+.fail-experience .description {
+    font-weight: 400;
+    font-size: 15px;
+    Line-height: 26px;
     margin-top: 24px;
 }
-.fail-experience ul{
+
+.fail-experience ul {
     margin-top: 10px;
 }
+
 /* Failure content end */
 
 /* Plan start */
 
-.skill{
+.skill {
     margin: 95px 230px;
 }
-.skill .plan{
+
+.skill .plan {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 50px;
 }
 
-.skill .planning{
+.skill .planning {
     display: flex;
     justify-content: space-between;
 }
-.skill .planning .work{
+
+.skill .planning .work {
     text-align: center;
     margin-bottom: 80px;
 }
-.planning .work h3{
+
+.planning .work h3 {
     margin-top: 24px;
     margin-bottom: 15px;
 }
+
 /* Plan End */
 
 /* Contact start */
-.watch{
+.watch {
     background: linear-gradient(to right, rgba(2, 2, 2, 0.897), rgba(85, 84, 90, 0.35)),
-    url(images/banner/watch.png);
+        url(images/banner/watch.png);
     height: 300px;
     width: 1140px;
     margin: 0px 230px 100px 150px;
 
 }
-.watch .contact{
+
+.watch .contact {
     height: 180px;
     width: 460px;
     padding: 60px 65px;
 }
 
-.watch .keep-contact{
+.watch .keep-contact {
     color: #ffffff;
     font-size: 40px;
     font-weight: 700;
     line-height: 46px;
 }
-.contact .btn{
+
+.contact .btn {
     margin-top: 15px;
     margin-left: 5px;
 }
+
 /* Contact ens */
+/* Footer start */
+
+
+footer {
+    width: 1430px;
+    height: 577px;
+    background-color: black;
+}
+
+footer .finish {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .future,
+.subscribe {
+    width: 30%;
+    padding-top: 145px;
+}
+
+footer .future {
+    text-align: left;
+    margin-left: 80px;
+}
+
+.future h2 {
+    color: #ffffff;
+    font-size: 45px;
+    margin-bottom: 7px;
+    font-weight: 700;
+}
+
+.future p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.future .future-contact {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400px;
+    margin: 24px 0px 16px 0px;
+}
+
+.future .social-media {
+    margin-top: 30px;
+}
+
+.subscribe h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.subscribe input {
+    padding: 20px 60px 20px 20px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background: transparent;
+    color: #ffffff;
+    text-align: left;
+    font-size: 14px;
+}
+
+.subscribe .btn {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+/* Footer end */
